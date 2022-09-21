@@ -1,4 +1,4 @@
-# seniorProject
+# university_project
 
 ## Project setup
 ```
