@@ -1,8 +1,5 @@
 # web
 
-## Demo
-https://ayay459547.github.io/seniorProject/#/home
-
 ## Project setup
 ```
 npm install
