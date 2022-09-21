@@ -22,10 +22,14 @@
 
       <div class="links">
         <ul>
-          <li v-for="(item, index) in navlist" 
-              :key="index" 
-              @click="clicklink(item, index)"
-              :class="{underLine: currectIndex == index}">{{item}}</li>
+          <li 
+            v-for="(item, index) in navlist" 
+            :key="index" 
+            @click="clicklink(item, index)"
+            :class="{underLine: currectIndex == index}"
+          >
+            {{item}}
+          </li>
           <button class="sure-btn" @click="sureClick">確定</button>
         </ul>
       </div>
@@ -230,6 +234,7 @@ button {
   align-items: center;
 
   ul {
+    cursor: pointer;
 
     @media screen and (max-width: 600px) {
       background-color: var(--navColor);
@@ -275,6 +280,7 @@ button {
     }
 
     .sure-btn{
+      cursor: pointer;
       margin-top: 40px;
       margin-left: -20px;
       border-radius: 30px;
