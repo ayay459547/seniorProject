@@ -1,7 +1,7 @@
 # web
 
 ## Demo
-https://ayay459547.github.io/web3D/#/home
+https://ayay459547.github.io/seniorProject/#/home
 
 ## Project setup
 ```
