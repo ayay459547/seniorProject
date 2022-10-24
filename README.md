@@ -1,5 +1,8 @@
 # university_project
 
+## demo
+https://ayay459547.github.io/university_project/
+
 ## Project setup
 ```
 npm install
